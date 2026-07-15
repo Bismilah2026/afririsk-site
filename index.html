@@ -2,211 +2,138 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AfriRisk Solutions | Intermédiation & Conseil stratégique</title>
-  <meta name="description" content="AfriRisk Solutions accompagne les organisations dans leurs relations d’affaires entre le Canada et l’Afrique.">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AfriRisk Solutions | Intermédiation et conseil stratégique</title>
+  <meta name="description" content="AfriRisk Solutions accompagne les institutions et les entreprises entre l’Afrique et le Canada.">
   <link rel="icon" href="assets/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
 <header class="header">
   <div class="container header-inner">
-    <a class="brand" href="#accueil" aria-label="AfriRisk Solutions">
-      <img src="assets/logo.svg" alt="AfriRisk Solutions">
-    </a>
-
-    <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
-
-    <nav class="nav">
+    <a class="logo" href="#accueil"><img src="assets/logo.svg" alt="AfriRisk Solutions"></a>
+    <nav class="nav" id="mainNav">
       <a href="#accueil" data-fr="Accueil" data-en="Home">Accueil</a>
       <a href="#apropos" data-fr="À propos" data-en="About">À propos</a>
       <a href="#expertise" data-fr="Expertise" data-en="Expertise">Expertise</a>
-      <a href="#secteurs" data-fr="Secteurs" data-en="Sectors">Secteurs</a>
+      <a href="#secteurs" data-fr="Secteurs" data-en="Industries">Secteurs</a>
       <a href="#contact" data-fr="Contact" data-en="Contact">Contact</a>
+      <button class="nav-cta js-open-appointment" type="button" data-fr="Prendre rendez-vous" data-en="Book a meeting">Prendre rendez-vous</button>
     </nav>
-
-    <div class="header-actions">
-      <div class="language" aria-label="Choix de langue">
-        <button class="lang active" data-lang="fr">FR</button>
-        <span></span>
-        <button class="lang" data-lang="en">EN</button>
-      </div>
-      <a class="header-cta" href="#contact" data-fr="Prendre rendez-vous" data-en="Book a consultation">Prendre rendez-vous</a>
+    <div class="lang-switch" aria-label="Choix de langue">
+      <button class="lang active" data-lang="fr" type="button">FR</button><span>|</span><button class="lang" data-lang="en" type="button">EN</button>
     </div>
+    <button class="menu" type="button" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
   </div>
 </header>
 
 <main>
   <section class="hero" id="accueil">
     <div class="hero-overlay"></div>
-    <div class="container hero-grid">
+    <div class="container hero-inner">
       <div class="hero-copy">
-        <p class="eyebrow" data-fr="INTERMÉDIATION D’AFFAIRES & CONSEIL STRATÉGIQUE" data-en="BUSINESS INTERMEDIATION & STRATEGIC ADVISORY">
-          INTERMÉDIATION D’AFFAIRES & CONSEIL STRATÉGIQUE
-        </p>
-        <h1>Connecting <em>Opportunities.</em><br>Managing Risks.</h1>
-        <p class="lead"
-           data-fr="AfriRisk Solutions crée des passerelles de confiance entre les organisations au Canada et en Afrique, grâce à une approche structurée, confidentielle et orientée vers des solutions durables."
-           data-en="AfriRisk Solutions builds trusted bridges between organizations in Canada and Africa through a structured, confidential and solution-oriented approach.">
-          AfriRisk Solutions crée des passerelles de confiance entre les organisations au Canada et en Afrique, grâce à une approche structurée, confidentielle et orientée vers des solutions durables.
-        </p>
-        <div class="hero-buttons">
+        <div class="kicker" data-fr="Cabinet d’intermédiation et de conseil stratégique" data-en="Business intermediation and strategic advisory firm">Cabinet d’intermédiation et de conseil stratégique</div>
+        <h1 data-fr="Votre partenaire de confiance en gestion des risques et solutions transfrontalières." data-en="Your trusted partner for risk management and cross-border solutions.">Votre partenaire de confiance en gestion des risques et solutions transfrontalières.</h1>
+        <p class="lead" data-fr="AfriRisk Solutions accompagne les institutions financières et les entreprises en Afrique et au Canada avec des solutions professionnelles, éthiques et efficaces." data-en="AfriRisk Solutions supports financial institutions and businesses in Africa and Canada with professional, ethical and effective solutions.">AfriRisk Solutions accompagne les institutions financières et les entreprises en Afrique et au Canada avec des solutions professionnelles, éthiques et efficaces.</p>
+        <div class="actions">
           <a class="btn primary" href="#expertise" data-fr="Découvrir notre expertise" data-en="Explore our expertise">Découvrir notre expertise</a>
-          <a class="btn secondary" href="#contact" data-fr="Nous contacter" data-en="Contact us">Nous contacter</a>
+          <button class="btn secondary js-open-appointment" type="button" data-fr="Prendre rendez-vous" data-en="Book a meeting">Prendre rendez-vous</button>
         </div>
       </div>
-
-      <aside class="hero-card">
-        <span class="hero-card-label" data-fr="NOTRE POSITIONNEMENT" data-en="OUR POSITIONING">NOTRE POSITIONNEMENT</span>
-        <h2 data-fr="Relier les marchés. Structurer les échanges." data-en="Connecting markets. Structuring relationships.">
-          Relier les marchés. Structurer les échanges.
-        </h2>
-        <p data-fr="Une présence canadienne, une compréhension des réalités africaines et une coordination rigoureuse de chaque dossier."
-           data-en="A Canadian presence, an understanding of African business realities, and rigorous coordination of every engagement.">
-          Une présence canadienne, une compréhension des réalités africaines et une coordination rigoureuse de chaque dossier.
-        </p>
-        <div class="location">
-          <strong data-fr="Ontario, Canada" data-en="Ontario, Canada">Ontario, Canada</strong>
-          <span data-fr="Au service de relations Canada–Afrique" data-en="Supporting Canada–Africa business relationships">Au service de relations Canada–Afrique</span>
-        </div>
-      </aside>
     </div>
   </section>
 
-  <section class="trust-strip">
-    <div class="container trust-grid">
-      <div><strong>10+</strong><span data-fr="années d’expérience bancaire" data-en="years of banking experience">années d’expérience bancaire</span></div>
-      <div><strong>2</strong><span data-fr="continents connectés" data-en="connected continents">continents connectés</span></div>
-      <div><strong>1</strong><span data-fr="approche personnalisée" data-en="tailored approach">approche personnalisée</span></div>
+  <section class="why" id="apropos">
+    <div class="container why-card">
+      <div class="why-title" data-fr="Pourquoi AfriRisk Solutions ?" data-en="Why AfriRisk Solutions?">Pourquoi AfriRisk Solutions ?</div>
+      <div class="why-grid">
+        <div class="why-item"><b>10+</b><span data-fr="années d’expérience dans le secteur bancaire" data-en="years of banking sector experience">années d’expérience dans le secteur bancaire</span></div>
+        <div class="why-item"><b>◎</b><span data-fr="expertise des marchés canadien et africain" data-en="knowledge of Canadian and African markets">expertise des marchés canadien et africain</span></div>
+        <div class="why-item"><b>◇</b><span data-fr="intermédiation professionnelle et confidentielle" data-en="professional and confidential intermediation">intermédiation professionnelle et confidentielle</span></div>
+        <div class="why-item"><b>♞</b><span data-fr="conseil stratégique personnalisé" data-en="tailored strategic advisory">conseil stratégique personnalisé</span></div>
+        <div class="why-item"><b>∞</b><span data-fr="coordination avec des partenaires qualifiés" data-en="coordination with qualified partners">coordination avec des partenaires qualifiés</span></div>
+      </div>
     </div>
   </section>
 
-  <section class="section" id="expertise">
+  <section class="section soft" id="expertise">
     <div class="container">
-      <div class="section-heading">
-        <p class="eyebrow" data-fr="NOTRE EXPERTISE" data-en="OUR EXPERTISE">NOTRE EXPERTISE</p>
+      <div class="section-head">
+        <div class="kicker" data-fr="Notre expertise" data-en="Our expertise">Notre expertise</div>
         <h2 data-fr="Trois piliers. Une approche intégrée." data-en="Three pillars. One integrated approach.">Trois piliers. Une approche intégrée.</h2>
-        <p data-fr="Nous facilitons les échanges, structurons la réflexion et coordonnons les bons interlocuteurs autour de chaque dossier."
-           data-en="We facilitate dialogue, structure strategic thinking and coordinate the right stakeholders for every engagement.">
-          Nous facilitons les échanges, structurons la réflexion et coordonnons les bons interlocuteurs autour de chaque dossier.
-        </p>
+        <p data-fr="Nous facilitons les échanges, structurons la réflexion et coordonnons les bons interlocuteurs autour de chaque dossier." data-en="We facilitate dialogue, structure decision-making and coordinate the right stakeholders for every engagement.">Nous facilitons les échanges, structurons la réflexion et coordonnons les bons interlocuteurs autour de chaque dossier.</p>
       </div>
-
       <div class="cards">
-        <article class="card">
-          <div class="card-number">01</div>
-          <h3 data-fr="Intermédiation d’affaires" data-en="Business intermediation">Intermédiation d’affaires</h3>
-          <p data-fr="Mise en relation et création d’un cadre de dialogue professionnel entre organisations, partenaires et parties prenantes."
-             data-en="Connecting organizations, partners and stakeholders within a clear and professional framework.">
-            Mise en relation et création d’un cadre de dialogue professionnel entre organisations, partenaires et parties prenantes.
-          </p>
-        </article>
-
-        <article class="card">
-          <div class="card-number">02</div>
-          <h3 data-fr="Conseil stratégique" data-en="Strategic advisory">Conseil stratégique</h3>
-          <p data-fr="Analyse des enjeux commerciaux, financiers et opérationnels afin d’éclairer la prise de décision."
-             data-en="Analysis of commercial, financial and operational issues to support informed decision-making.">
-            Analyse des enjeux commerciaux, financiers et opérationnels afin d’éclairer la prise de décision.
-          </p>
-        </article>
-
-        <article class="card">
-          <div class="card-number">03</div>
-          <h3 data-fr="Coordination" data-en="Coordination">Coordination</h3>
-          <p data-fr="Organisation de la collaboration avec des consultants, avocats et professionnels autorisés lorsque nécessaire."
-             data-en="Coordination with consultants, lawyers and duly authorized professionals whenever required.">
-            Organisation de la collaboration avec des consultants, avocats et professionnels autorisés lorsque nécessaire.
-          </p>
-        </article>
+        <article class="card"><div class="icon">↔</div><h3 data-fr="Intermédiation" data-en="Intermediation">Intermédiation</h3><p data-fr="Nous facilitons le dialogue entre les parties pour créer des opportunités durables et mutuellement bénéfiques." data-en="We facilitate dialogue between stakeholders to create sustainable, mutually beneficial opportunities.">Nous facilitons le dialogue entre les parties pour créer des opportunités durables et mutuellement bénéfiques.</p></article>
+        <article class="card"><div class="icon">♞</div><h3 data-fr="Conseil stratégique" data-en="Strategic advisory">Conseil stratégique</h3><p data-fr="Nous accompagnons les organisations dans leurs décisions grâce à une analyse rigoureuse et des solutions sur mesure." data-en="We support organizations in decision-making through rigorous analysis and tailored solutions.">Nous accompagnons les organisations dans leurs décisions grâce à une analyse rigoureuse et des solutions sur mesure.</p></article>
+        <article class="card"><div class="icon">∞</div><h3 data-fr="Coordination" data-en="Coordination">Coordination</h3><p data-fr="Nous coordonnons les partenaires, les ressources et les processus pour assurer une exécution efficace." data-en="We coordinate partners, resources and processes to support effective execution.">Nous coordonnons les partenaires, les ressources et les processus pour assurer une exécution efficace.</p></article>
       </div>
     </div>
   </section>
 
-  <section class="section light" id="apropos">
-    <div class="container about-grid">
+  <section class="band" id="secteurs">
+    <div class="container band-grid">
+      <div class="stat"><strong>2</strong><span data-fr="Continents · Canada et Afrique" data-en="Continents · Canada and Africa">Continents · Canada et Afrique</span></div>
+      <div class="stat"><strong>10+</strong><span data-fr="Années d’expérience bancaire" data-en="Years of banking experience">Années d’expérience bancaire</span></div>
+      <div class="stat"><strong>1</strong><span data-fr="Approche personnalisée" data-en="Tailored approach">Approche personnalisée</span></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container split">
+      <div class="visual" role="img" aria-label="Professionnels en réunion face à Toronto"></div>
       <div>
-        <p class="eyebrow" data-fr="À PROPOS" data-en="ABOUT">À PROPOS</p>
-        <h2 data-fr="Une expertise fondée sur la confiance." data-en="Expertise built on trust.">Une expertise fondée sur la confiance.</h2>
-      </div>
-      <div class="about-copy">
-        <p data-fr="AfriRisk Solutions est une entreprise canadienne spécialisée dans l’intermédiation d’affaires, le conseil stratégique et la coordination de solutions sur mesure pour des partenaires institutionnels et privés."
-           data-en="AfriRisk Solutions is a Canadian business specializing in business intermediation, strategic advisory and the coordination of tailored solutions for institutional and private-sector partners.">
-          AfriRisk Solutions est une entreprise canadienne spécialisée dans l’intermédiation d’affaires, le conseil stratégique et la coordination de solutions sur mesure pour des partenaires institutionnels et privés.
-        </p>
-        <p data-fr="Notre rôle est de créer des connexions utiles, de clarifier les enjeux et d’orienter chaque dossier vers les ressources appropriées, tout en respectant les exigences juridiques et réglementaires applicables."
-           data-en="Our role is to create valuable connections, clarify key issues and direct each engagement to the appropriate resources while respecting applicable legal and regulatory requirements.">
-          Notre rôle est de créer des connexions utiles, de clarifier les enjeux et d’orienter chaque dossier vers les ressources appropriées, tout en respectant les exigences juridiques et réglementaires applicables.
-        </p>
+        <div class="kicker" data-fr="Notre positionnement" data-en="Our positioning">Notre positionnement</div>
+        <h2 data-fr="Bâtir des connexions de confiance." data-en="Building trusted connections.">Bâtir des connexions de confiance.</h2>
+        <p data-fr="AfriRisk Solutions agit comme facilitateur entre les organisations qui souhaitent développer, structurer ou sécuriser leurs relations d’affaires transfrontalières." data-en="AfriRisk Solutions acts as a facilitator for organizations seeking to develop, structure or strengthen cross-border business relationships.">AfriRisk Solutions agit comme facilitateur entre les organisations qui souhaitent développer, structurer ou sécuriser leurs relations d’affaires transfrontalières.</p>
       </div>
     </div>
   </section>
 
-  <section class="section sectors" id="secteurs">
-    <div class="container">
-      <div class="section-heading">
-        <p class="eyebrow" data-fr="SECTEURS" data-en="SECTORS">SECTEURS</p>
-        <h2 data-fr="Des solutions adaptées aux organisations tournées vers l’international." data-en="Tailored solutions for internationally focused organizations.">
-          Des solutions adaptées aux organisations tournées vers l’international.
-        </h2>
-      </div>
-      <div class="sector-list">
-        <span data-fr="Institutions financières" data-en="Financial institutions">Institutions financières</span>
-        <span data-fr="Entreprises et PME" data-en="Businesses and SMEs">Entreprises et PME</span>
-        <span data-fr="Cabinets professionnels" data-en="Professional firms">Cabinets professionnels</span>
-        <span data-fr="Investisseurs et partenaires" data-en="Investors and partners">Investisseurs et partenaires</span>
-      </div>
-    </div>
-  </section>
-
-  <section class="contact-section" id="contact">
-    <div class="container contact-grid">
-      <div>
-        <p class="eyebrow" data-fr="CONTACT" data-en="CONTACT">CONTACT</p>
-        <h2 data-fr="Parlons de votre prochain projet." data-en="Let’s discuss your next project.">Parlons de votre prochain projet.</h2>
-        <p data-fr="Présentez-nous brièvement votre besoin. Nous vous répondrons avec discrétion et professionnalisme."
-           data-en="Tell us briefly about your needs. We will respond with discretion and professionalism.">
-          Présentez-nous brièvement votre besoin. Nous vous répondrons avec discrétion et professionnalisme.
-        </p>
-      </div>
-      <a class="contact-card" href="mailto:contact@afririsk.ca">
-        <small data-fr="COURRIEL" data-en="EMAIL">COURRIEL</small>
-        <strong>contact@afririsk.ca</strong>
-        <span data-fr="Écrivez-nous →" data-en="Email us →">Écrivez-nous →</span>
-      </a>
+  <section class="cta" id="contact">
+    <div class="container cta-inner">
+      <h2 data-fr="Parlons de votre prochain projet ou enjeu d’affaires." data-en="Let’s discuss your next project or business challenge.">Parlons de votre prochain projet ou enjeu d’affaires.</h2>
+      <button class="btn secondary js-open-appointment" type="button" data-fr="Contactez-nous" data-en="Contact us">Contactez-nous</button>
     </div>
   </section>
 </main>
 
 <footer class="footer">
-  <div class="container footer-grid">
-    <div class="footer-brand">
-      <img src="assets/logo-light.svg" alt="AfriRisk Solutions">
-      <p>Connecting Opportunities. Managing Risks.</p>
+  <div class="container">
+    <div class="footer-grid">
+      <div><img class="footer-logo" src="assets/logo.svg" alt="AfriRisk Solutions"><p>Connecting Opportunities. Managing Risks.</p></div>
+      <div><h4 data-fr="Liens rapides" data-en="Quick links">Liens rapides</h4><a href="#apropos" data-fr="À propos" data-en="About">À propos</a><a href="#expertise">Expertise</a><a href="#secteurs" data-fr="Secteurs" data-en="Industries">Secteurs</a></div>
+      <div><h4 data-fr="Nous joindre" data-en="Contact us">Nous joindre</h4><p>Oshawa, Ontario, Canada</p><a href="mailto:contact@afririsk.ca">contact@afririsk.ca</a><a href="https://wa.me/14379919593" target="_blank" rel="noopener">WhatsApp : +1 437 991 9593</a></div>
     </div>
-    <div>
-      <h4 data-fr="Navigation" data-en="Navigation">Navigation</h4>
-      <a href="#apropos" data-fr="À propos" data-en="About">À propos</a>
-      <a href="#expertise" data-fr="Expertise" data-en="Expertise">Expertise</a>
-      <a href="#secteurs" data-fr="Secteurs" data-en="Sectors">Secteurs</a>
-    </div>
-    <div>
-      <h4 data-fr="Nous joindre" data-en="Contact">Nous joindre</h4>
-      <p>Ontario, Canada</p>
-      <a href="mailto:contact@afririsk.ca">contact@afririsk.ca</a>
-    </div>
-  </div>
-  <div class="container fineprint">
-    <p data-fr="AfriRisk Solutions fournit des services d’intermédiation d’affaires, de conseil stratégique et de coordination. L’entreprise n’est pas un cabinet juridique et n’agit pas comme agence de recouvrement. Toute activité nécessitant une autorisation professionnelle ou réglementaire est confiée à un professionnel dûment autorisé."
-       data-en="AfriRisk Solutions provides business intermediation, strategic advisory and coordination services. The business is not a law firm and does not act as a collection agency. Any activity requiring professional or regulatory authorization is referred to a duly authorized professional.">
-      AfriRisk Solutions fournit des services d’intermédiation d’affaires, de conseil stratégique et de coordination. L’entreprise n’est pas un cabinet juridique et n’agit pas comme agence de recouvrement. Toute activité nécessitant une autorisation professionnelle ou réglementaire est confiée à un professionnel dûment autorisé.
-    </p>
-    <p>© <span id="year"></span> AfriRisk Solutions. <span data-fr="Tous droits réservés." data-en="All rights reserved.">Tous droits réservés.</span></p>
+    <p class="fineprint" data-fr="AfriRisk Solutions fournit des services d’intermédiation d’affaires, de conseil stratégique et de coordination. L’entreprise ne fournit pas de conseils juridiques et n’agit pas comme agence de recouvrement. Toute intervention nécessitant une autorisation professionnelle est confiée à un professionnel dûment autorisé." data-en="AfriRisk Solutions provides business intermediation, strategic advisory and coordination services. The firm does not provide legal advice and does not operate as a collection agency. Any work requiring professional authorization is referred to a duly licensed professional.">AfriRisk Solutions fournit des services d’intermédiation d’affaires, de conseil stratégique et de coordination. L’entreprise ne fournit pas de conseils juridiques et n’agit pas comme agence de recouvrement. Toute intervention nécessitant une autorisation professionnelle est confiée à un professionnel dûment autorisé.</p>
+    <div class="legal">© <span data-year></span> AfriRisk Solutions. <span data-fr="Tous droits réservés." data-en="All rights reserved.">Tous droits réservés.</span></div>
   </div>
 </footer>
+
+<a class="whatsapp" href="https://wa.me/14379919593?text=Bonjour%2C%20je%20souhaite%20obtenir%20des%20renseignements%20concernant%20les%20services%20d%27AfriRisk%20Solutions." target="_blank" rel="noopener" aria-label="WhatsApp">WhatsApp</a>
+
+<div class="modal" id="appointmentModal" aria-hidden="true">
+  <div class="modal-backdrop js-close-appointment"></div>
+  <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="appointmentTitle">
+    <button class="modal-close js-close-appointment" type="button" aria-label="Fermer">×</button>
+    <div class="kicker" data-fr="Prendre rendez-vous" data-en="Book a meeting">Prendre rendez-vous</div>
+    <h2 id="appointmentTitle" data-fr="Parlez-nous de votre besoin." data-en="Tell us about your needs.">Parlez-nous de votre besoin.</h2>
+    <form id="appointmentForm">
+      <div class="form-grid">
+        <label><span data-fr="Nom complet" data-en="Full name">Nom complet</span><input type="text" name="name" required></label>
+        <label><span data-fr="Entreprise" data-en="Company">Entreprise</span><input type="text" name="company"></label>
+        <label><span data-fr="Courriel" data-en="Email">Courriel</span><input type="email" name="email" required></label>
+        <label><span data-fr="Téléphone" data-en="Phone">Téléphone</span><input type="tel" name="phone"></label>
+        <label class="full"><span data-fr="Message" data-en="Message">Message</span><textarea name="message" rows="5" required></textarea></label>
+      </div>
+      <button class="btn primary full-width" type="submit" data-fr="Envoyer la demande" data-en="Send request">Envoyer la demande</button>
+      <p class="form-status" id="formStatus" aria-live="polite"></p>
+    </form>
+  </div>
+</div>
 
 <script src="assets/script.js"></script>
 </body>
