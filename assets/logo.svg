@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="650" height="160" viewBox="0 0 650 160">
+<rect width="650" height="160" fill="white"/>
+<g transform="translate(10 12)">
+  <text x="0" y="88" font-family="Georgia,serif" font-size="96" font-weight="700" fill="#07192f">A</text>
+  <text x="55" y="88" font-family="Georgia,serif" font-size="96" font-weight="700" fill="#c9a35b">R</text>
+  <path d="M20 95 C70 30, 120 42, 148 10" fill="none" stroke="#c9a35b" stroke-width="7" stroke-linecap="round"/>
+</g>
+<line x1="175" y1="25" x2="175" y2="135" stroke="#c9a35b" stroke-width="2"/>
+<text x="198" y="70" font-family="Georgia,serif" font-size="45" font-weight="700" letter-spacing="1" fill="#07192f">AFRIRISK</text>
+<line x1="200" y1="91" x2="265" y2="91" stroke="#c9a35b" stroke-width="2"/>
+<text x="280" y="99" font-family="Arial,sans-serif" font-size="22" letter-spacing="7" fill="#c9a35b">SOLUTIONS</text>
+<line x1="471" y1="91" x2="545" y2="91" stroke="#c9a35b" stroke-width="2"/>
+<text x="198" y="129" font-family="Arial,sans-serif" font-size="14" letter-spacing=".5" fill="#34465b">Connecting Opportunities. Managing Risks.</text>
+</svg>
